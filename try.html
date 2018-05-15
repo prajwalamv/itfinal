@@ -1,0 +1,97 @@
+<head>
+<meta name="viewport" content="width=200px", initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('searchicon.png' width:1% height:1%);
+  background-position: 1px 2px;
+  background-repeat: no-repeat;
+  width: 20%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 2px;
+width: 20%;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+<img src="C:\Users\mypc\Desktop\logo.png" \width= "120px" height="80" align= "left">
+<center>
+<pre>
+<h1 font-color="yellow" font-size="20" width= "100px" height="60">   SRI SUBADRA     
+ENERGY INNOVATIONS PVT LTD </h1></pre>
+
+<div class="topnav" align="right" color="black">
+<pre><b>
+ <a href="C:\Users\mypc\Desktop\2015cse100\home.html"<b><font color="black">HOME</font></b></a>     <a href="C:\Users\mypc\Desktop\2015cse100\contact.html"><b><font color="black">CONTACT_US</font></b></a>    <a href="C:\Users\mypc\Desktop\2015cse100\products.html"><b><font color="black">PRODUCTS</font><font color="black"></b></a>    <a href="C:\Users\mypc\Desktop\2015cse100\about.html"><b><font color="black">ABOUT</font></b></a>
+</b></pre>
+  <!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for products" title="Type in a name">
+
+<ul id="myUL" type="hidden">
+  <li><a href="C:\Users\mypc\Desktop\2015cse100\2.html">LLS-20W-24W</a></li>
+  <li><a href="C:\Users\mypc\Desktop\2015cse100\1.html">LYTON–TOPSY-CLEAR-LTC-100C</a></li>
+
+  <li><a href="C:\Users\mypc\Desktop\2015cse100\3.html">LFL-10-&-15-W</a></li>
+  <li><a href="C:\Users\mypc\Desktop\2015cse100\4.html">TL-SSFL-75-CW-HYB</a></li>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+</body>
+</html>
+
+</div>
+<p>
+<a href= "C:\Users\mypc\Desktop\2015cse100\1.html"><img src="C:\Users\mypc\Desktop\2015cse100/1.jpg" width="500px" height="500"></a>
+<a href= "C:\Users\mypc\Desktop\2015cse100\2.html"><img src="C:\Users\mypc\Desktop\2015cse100/2.jpg"></a>
+<a href= "C:\Users\mypc\Desktop\2015cse100\3.html"><img src="C:\Users\mypc\Desktop\2015cse100/3.jpg" width="400px" height="400"></a>
+<a href= "C:\Users\mypc\Desktop\2015cse100\4.html"><img src="C:\Users\mypc\Desktop\2015cse100/4.jpg"></a>
+</p>
+
+</body>
+</html>
